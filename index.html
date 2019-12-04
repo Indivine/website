@@ -4,14 +4,14 @@
 	<html lang="en-AU">
 
 	<head>
-		
+
 		<!-- Meta -->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="description" content="Want to work in the clouds? We'll take you there. Specialists in Cloud IT and Activity Based Working for Small Business.">
 		<meta name="keywords" content="cloud consulting, cloud consulting services, cloud computing companies, cloud infrastructure, cloud migration, cloud managed service, cloud consultant, cloud consultants, it consulting, it consultant, it consultants, computer support, small business it support, small business computer support, office 365 migration experts, cloud migration, cloud migration experts">
-		
+
 		<!-- Links -->
 		<link rel="icon" href="https://creativm.com/assets/images/favicon.png" type="image/png">
 		<link rel='stylesheet' href='https://creativm.com/assets/css/bootstrap.min.css?ver=4.5.3' type='text/css'>
@@ -24,9 +24,9 @@
 		<script src="https://creativm.com/assets/js/bootstrap.min.js"></script>
 		<script src="https://creativm.com/assets/js/smooth-scroll.js"></script>
 		<script src="https://creativm.com/assets/js/menu-scroll.js"></script>
-		
+
 		<title>Creativm</title>
-		
+
 	</head>
 
 <body>
@@ -217,7 +217,7 @@
 				</div>
 				<div class="section-content">
 					<p class="section-description">Our pricing options are structured to suite most budgets and busines types. Whether you're looking to get a taste for our exceptional services and resources, or tap into our more extensive service offerings, rest assured that we can match our services to your budgets and business needs.</p>
-					
+
 					<div class="row">
 						<div class="col-md-4">
 							<div class="feature-block">
@@ -244,7 +244,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="document-link"><a href="/assets/docs/rate_card_2016-17.pdf">Click here to view our latest rates</a></div>				
+					<div class="document-link"><a href="/assets/docs/rate_card_2016-17.pdf">Click here to view our latest rates</a></div>
 				</div>
 			</div>
 		</div>
@@ -269,7 +269,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="contact-form">
-								<form method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>#contact"> 
+								<form method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>#contact">
 									<input type="text" name="name" placeholder="Name">
 									<input type="tel" name="tel" placeholder="Telephone">
 									<input type="email" name="email" placeholder="Email">
@@ -278,11 +278,11 @@
 								</form>
 								<?php
 								if(isset($_POST['email'])) {
-								 
+
 									// EDIT THE 2 LINES BELOW AS REQUIRED
 									$email_to = "marco@indivine.com";
 									$email_subject = "New Website Enquiry";
-								 
+
 									function died($error) {
 										// your error code can go here
 										echo "We are very sorry, but there were error(s) found with the form you submitted. ";
@@ -291,73 +291,73 @@
 										echo "Please go back and fix these errors.<br /><br />";
 										die();
 									}
-								 
-								 
+
+
 									// validation expected data exists
 									if(!isset($_POST['name']) ||
 										!isset($_POST['tel']) ||
 										!isset($_POST['email']) ||
 										!isset($_POST['comments'])) {
-										died('We are sorry, but there appears to be a problem with the form you submitted.');       
+										died('We are sorry, but there appears to be a problem with the form you submitted.');
 									}
-								 
-									 
-								 
+
+
+
 									$name = $_POST['name']; // required
 									$email_from = $_POST['email']; // required
 									$telephone = $_POST['telephone']; // not required
 									$comments = $_POST['comments']; // required
-								 
+
 									$error_message = "";
 									$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-								 
+
 								  if(!preg_match($email_exp,$email_from)) {
 									$error_message .= 'The Email Address you entered does not appear to be valid.<br />';
 								  }
-								 
+
 									$string_exp = "/^[A-Za-z .'-]+$/";
-								 
+
 								  if(!preg_match($string_exp,$name)) {
 									$error_message .= 'The name you entered does not appear to be valid.<br />';
 								  }
-								 
+
 								  if(strlen($comments) < 2) {
 									$error_message .= 'The Comments you entered do not appear to be valid.<br />';
 								  }
-								 
+
 								  if(strlen($error_message) > 0) {
 									died($error_message);
 								  }
-								 
+
 									$email_message = "Form details below.\n\n";
-								 
-									 
+
+
 									function clean_string($string) {
 									  $bad = array("content-type","bcc:","to:","cc:","href");
 									  return str_replace($bad,"",$string);
 									}
-								 
-									 
-								 
+
+
+
 									$email_message .= "First Name: ".clean_string($first_name)."\n";
 									$email_message .= "Last Name: ".clean_string($last_name)."\n";
 									$email_message .= "Email: ".clean_string($email_from)."\n";
 									$email_message .= "Telephone: ".clean_string($telephone)."\n";
 									$email_message .= "Comments: ".clean_string($comments)."\n";
-								 
+
 								// create email headers
 								$headers = 'From: '.$email_from."\r\n".
 								'Reply-To: '.$email_from."\r\n" .
 								'X-Mailer: PHP/' . phpversion();
-								@mail($email_to, $email_subject, $email_message, $headers);  
+								@mail($email_to, $email_subject, $email_message, $headers);
 								?>
-								 
+
 								<!-- include your own success html here -->
-								 
+
 								Thank you for contacting us. We will be in touch with you very soon.
-								 
+
 								<?php
-								 
+
 								}
 								?>
 							</div>
@@ -385,5 +385,5 @@
 	</div>
 
 
-	
+
 </body>
