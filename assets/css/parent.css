@@ -8,8 +8,8 @@
 
 		body {
 			font-family: 'Roboto', sans-serif;
-			font-size: 15px;
-			line-height: 22px;
+			font-size: 16px;
+			line-height: 24px;
 			color: #444;
 			font-weight: 300;
 			background: #f7f7f7;
@@ -61,16 +61,16 @@
 			padding: 0;
 			margin: 0;
 		}
-		
+
 	/* =================================================== */
 	/* SECTION DEFAULTS */
 	/* =================================================== */
-	
+
 		.section-padding {
 			padding-top: 80px;
 			padding-bottom: 80px;
 		}
-		
+
 		#about .section-padding {
 			padding-top: 0;
 		}
@@ -105,7 +105,7 @@
 		.fine-print {
 			font-size: 12px;
 		}
-		
+
 		.section-triangle-down {
 			border-style: solid;
 			position: absolute;
@@ -116,7 +116,7 @@
 			width: 0;
 			border-width: 35px 50px 0 50px;
 		}
-		
+
 		.section-triangle-up {
 			border-style: solid;
 			position: relative;
@@ -152,7 +152,7 @@
 		/* =================================================== */
 
 
-		
+
 			#menu {
 				padding: 15px 0;
 				z-index: 100;
@@ -161,12 +161,12 @@
 				position: fixed;
 				font-family: Baloo;
 			}
-			
+
 			.logo {
 				max-width: 115px;
 				padding-top: 2px;
 			}
-			
+
 			.menu-list {
 				float: right;
 			}
@@ -176,7 +176,7 @@
 				padding: 0 2px;
 				text-transform: uppercase;
 				font-weight: 400;
-				font-size: 11px;	
+				font-size: 11px;
 			}
 
 			.menu-list li:after {
@@ -193,7 +193,7 @@
 				border-right: 0;
 				padding-right: 0;
 			}
-			
+
 			.menu-list li a {
 				color: #fff;
 				transition: 0.3s;
@@ -229,7 +229,7 @@
 				width: 100%;
 				top: 225px;
 			}
-			
+
 			.hero-title {
 				color: #fff;
 				text-align: center;
@@ -249,7 +249,7 @@
 			#partners {
 				position: relative;
 			}
-		
+
 			.partners-wrapper {
 				padding: 20px 15px 25px;
 				border-bottom: 1px solid #e0e0e0;
@@ -287,11 +287,11 @@
 		/* =================================================== */
 		/* SERVICES */
 		/* =================================================== */
-		
+
 			#services {
 				background: #fff;
 			}
-			
+
 			#services .feature-block {
 				background: #f7f7f7;
 				border: 1px solid #e0e0e0;
@@ -300,7 +300,7 @@
 			#services .section-triangle-down {
 				border-color: #fff transparent transparent transparent;
 			}
-		
+
 		/* =================================================== */
 		/* WHY US */
 		/* =================================================== */
@@ -308,7 +308,7 @@
 			#whyus {
 				background: #119ae2;
 			}
-			
+
 			#whyus .feature-block {
 				background: #108dd1;
 				border: 1px solid #41b3f1;
@@ -327,12 +327,12 @@
 			#about {
 				background: #fff;
 			}
-			
+
 			#about .feature-block {
 				background: #f7f7f7;
 				border: 1px solid #e0e0e0;
 			}
-			
+
 			#about .section-triangle-down {
 				border-color: #fff transparent transparent transparent;
 			}
@@ -344,16 +344,16 @@
 			#pricing {
 				background: #119ae2;
 			}
-			
+
 			#pricing .section-title,
 			#pricing .section-description {
 				color: #fff;
 			}
-			
+
 			#pricing .heading-underline {
 				background: #fff;
 			}
-			
+
 			#pricing .feature-block {
 				background: #108dd1;
 				border: 1px solid #41b3f1;
@@ -364,11 +364,11 @@
 				color: #fff;
 				text-align: center;
 			}
-			
+
 			#pricing .seperator {
 				border: 0.1px dashed #41b3f1;
 			}
-			
+
 			#pricing .document-link {
 				text-align: center;
 				font-size: 13px;
@@ -379,7 +379,7 @@
 				margin-top: 40px;
 				font-family: Baloo
 			}
-			
+
 			#pricing .document-link a {
 				color: #fff;
 				text-decoration: none;
@@ -389,7 +389,7 @@
 		/* =================================================== */
 		/* CONTACT */
 		/* =================================================== */
-		
+
 			input,
 			textarea,
 			select {
@@ -438,7 +438,7 @@
 				color: #fff;
 				transition: 0.3s;
 			}
-			
+
 			#contact .col-md-6 {
 				margin-bottom: 40px;
 			}
@@ -446,7 +446,7 @@
 			#contact .img-responsive {
 				min-width: 100%;
 			}
-			
+
 			#contact .section-triangle-up {
 				border-color: transparent transparent #374147 transparent;
 			}
@@ -460,11 +460,11 @@
 				padding: 20px 0;
 				background-color: #374147;
 			}
-			
+
 			#footer .menu-list {
 				float: left;
 			}
-			
+
 			#footer .menu-list li {
 				font-family: Baloo;
 				font-size: 11px
@@ -475,11 +475,11 @@
 				padding-left: 11px;
 				color: #777;
 			}
-			
+
 			#footer .menu-list li a {
 				color: #fff
 			}
-			
+
 			#footer .menu-list li a:hover {
 				color: #aaa
 			}
