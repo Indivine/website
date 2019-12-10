@@ -232,7 +232,8 @@
 				top: 225px;
 			}
 
-			.hero-title {
+			#hero h1,
+			#hero h2 {
 				color: #fff;
 				text-align: center;
 			}
