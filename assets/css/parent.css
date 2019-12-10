@@ -18,6 +18,8 @@
 		h1,
 		h2 {
 			font-family: 'Libre Baskerville', serif;
+			font-weight: 700;
+			letter-spacing: 0.5px;
 			color: #1499e1;
 		}
 
@@ -29,12 +31,12 @@
 		}
 
 		h1 {
-			font-size: 2.8em;
+			font-size: 32px;
 			line-height: 1.3em;
 		}
 
 		h2 {
-			font-size: 2em;
+			font-size: 28px;
 			line-height: 1.3em;
 		}
 
