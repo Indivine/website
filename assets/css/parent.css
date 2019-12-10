@@ -17,7 +17,7 @@
 
 		h1,
 		h2 {
-			font-family: 'Baloo', sans-serif;
+			font-family: 'Libre Baskerville', serif;
 			color: #1499e1;
 		}
 
@@ -98,7 +98,7 @@
 
 		.feature-title {
 			margin: 0 0 30px 0;
-			font-family: Baloo;
+			font-family: 'Libre Baskerville', serif;
 			font-size: 1.4em;
 		}
 
@@ -239,7 +239,7 @@
 				color: #fff;
 				text-align: center;
 				margin: 0;
-				font-family: baloo;
+				font-family: 'Libre Baskerville', serif;
 			}
 
 		/* =================================================== */
@@ -377,7 +377,7 @@
 				background: #2aaaef;
 				width: 100%;
 				margin-top: 40px;
-				font-family: Baloo
+				font-family: 'Libre Baskerville', serif;
 			}
 
 			#pricing .document-link a {
@@ -466,7 +466,7 @@
 			}
 
 			#footer .menu-list li {
-				font-family: Baloo;
+				font-family: 'Libre Baskerville', serif;
 				font-size: 11px
 			}
 
@@ -489,7 +489,7 @@
 				margin-top: 2px;
 				color: #aaa;
 				font-size: 11px;
-				font-family: Baloo
+				font-family: 'Libre Baskerville', serif;
 			}
 /* =================================================== */
 /* RESPONSIVE */
