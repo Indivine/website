@@ -76,6 +76,10 @@
 			padding-bottom: 80px;
 		}
 
+		.section-title {
+			text-align: center;
+		}
+
 		.section-content {
 			margin-top: 40px;
 		}
@@ -83,6 +87,7 @@
 		.heading-underline {
 			width: 50px;
 	    height: 2px;
+			margin: 0 auto 0 auto;
 	    border-radius: 50%;
 	    background: #1499e1;
 		}
@@ -94,7 +99,6 @@
 
 		.feature-title {
 			margin: 0 0 30px 0;
-			color: #1299e1;
 		}
 
 		.fine-print {
