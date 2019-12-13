@@ -72,15 +72,19 @@
 			padding-top: 0;
 		}
 
+		.section-title {
+			color: #1499e1;
+		}
+
 		.section-content {
 			margin-top: 40px;
 		}
-		
+
 		.heading-underline {
-			width: 150px;
-			height: 5px;
-			border-radius: 50%;
-			background: #1499e1;
+			width: 50px;
+	    height: 2px;
+	    border-radius: 50%;
+	    background: #1499e1;
 		}
 
 		.feature-block {
