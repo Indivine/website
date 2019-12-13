@@ -17,7 +17,7 @@
 
 		h1,
 		h2 {
-			font-family: 'Libre Baskerville', serif;
+			font-family: 'Open Sans Condensed', sans-serif;
 			font-weight: 700;
 			letter-spacing: 0.5px;
 			color: #1499e1;
@@ -100,7 +100,7 @@
 
 		.feature-title {
 			margin: 0 0 30px 0;
-			font-family: 'Libre Baskerville', serif;
+			font-family: 'Open Sans Condensed', sans-serif;
 			font-size: 1.4em;
 		}
 
@@ -161,7 +161,7 @@
 				width: 100%;
 				background: transparent;
 				position: fixed;
-				font-family: 'Libre Baskerville', serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 			}
 
 			.logo {
@@ -242,7 +242,7 @@
 				color: #fff;
 				text-align: center;
 				margin: 0;
-				font-family: 'Libre Baskerville', serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 			}
 
 		/* =================================================== */
@@ -380,7 +380,7 @@
 				background: #2aaaef;
 				width: 100%;
 				margin-top: 40px;
-				font-family: 'Libre Baskerville', serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 			}
 
 			#pricing .document-link a {
@@ -469,7 +469,7 @@
 			}
 
 			#footer .menu-list li {
-				font-family: 'Libre Baskerville', serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 				font-size: 11px
 			}
 
@@ -492,7 +492,7 @@
 				margin-top: 2px;
 				color: #aaa;
 				font-size: 11px;
-				font-family: 'Libre Baskerville', serif;
+				font-family: 'Open Sans Condensed', sans-serif;
 			}
 /* =================================================== */
 /* RESPONSIVE */
