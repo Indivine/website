@@ -162,7 +162,7 @@
 				position: fixed;
 				font-family: 'Open Sans Condensed', sans-serif;
 				color: #fff;
-				font-size: 16px;
+				font-size: 18px;
 			}
 
 			.logo {
@@ -177,9 +177,7 @@
 			.menu-list li {
 				display: inline-block;
 				padding: 0 2px;
-				text-transform: uppercase;
 				font-weight: 400;
-				font-size: 11px;
 			}
 
 			.menu-list li:after {
