@@ -169,6 +169,11 @@
 				max-height:25px;
 				padding-top: 2px;
 			}
+			
+			.site-title {
+				font-weight: 500;
+				font-size: 20px;
+			}
 
 			.menu-list {
 				float: right;
