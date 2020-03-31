@@ -161,6 +161,8 @@
 				background: transparent;
 				position: fixed;
 				font-family: 'Open Sans Condensed', sans-serif;
+				color: #fff;
+				font-size: 16px;
 			}
 
 			.logo {
