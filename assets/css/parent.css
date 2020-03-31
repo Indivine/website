@@ -81,13 +81,13 @@
 		}
 
 		.section-title:after {
-			content: "";
-			display: block;
-			width: 50px;
-	    height: 2px;
-			margin: 0 auto 0 auto;
-	    border-radius: 50%;
-	    background: #1499e1;
+		    content: "";
+		    display: block;
+		    width: 50px;
+		    height: 2px;
+		    margin: 20px auto 0 auto;
+		    border-radius: 50%;
+		    background: #1499e1;
 		}
 
 		.section-content {
@@ -102,6 +102,14 @@
 		.feature-title {
 			margin: 0 0 30px 0;
 		}
+		
+#about .feature-title {
+    color: #159ae2;
+}
+
+#pricing .section-description {
+    color: #fff;
+}
 
 		.fine-print {
 			font-size: 12px;
@@ -192,13 +200,7 @@
 				padding: 0 2px;
 				font-weight: 400;
 			}
-
-			.menu-list li:after {
-				content: "•";
-				padding-left: 10px;
-				color: #fff;
-			}
-
+			
 			.menu-list li:last-child:after {
 				display: none;
 			}
