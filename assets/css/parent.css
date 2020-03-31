@@ -171,8 +171,16 @@
 			}
 			
 			.site-title {
-				font-weight: 800;
-				font-size: 20px;
+			    font-weight: 800;
+			    font-size: 20px;
+			    color: #fff;
+			}
+			
+			.site-title:hover,
+			.site-title:active,
+			.site-title:focus {
+			    color: #fff;
+				
 			}
 
 			.menu-list {
