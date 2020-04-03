@@ -115,9 +115,9 @@
 			margin-top: 40px;
 		}
 		
-.section-image {
-    max-height: 200px;
-}
+		.section-image {
+		    max-height: 150px;
+		}
 
 		.feature-block {
 			padding: 25px;
