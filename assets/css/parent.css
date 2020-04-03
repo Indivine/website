@@ -340,85 +340,15 @@
 				border-color: #fff transparent transparent transparent;
 			}
 
-		/* =================================================== */
-		/* WHY US */
-		/* =================================================== */
-
-			#whyus {
-				background: #119ae2;
-			}
-
-			#whyus .feature-block {
-				background: #108dd1;
-				border: 1px solid #41b3f1;
-			}
-
 			#whyus .feature-title,
 			#whyus .feature-description {
 				color: #fff;
 				text-align: center;
 			}
 
-		/* =================================================== */
-		/* ABOUT US */
-		/* =================================================== */
-
-			#about {
-				background: #fff;
-			}
-
-			#about .feature-block {
-				background: #f7f7f7;
-				border: 1px solid #e0e0e0;
-			}
-
 			#about .section-triangle-down {
 				border-color: #fff transparent transparent transparent;
 			}
-
-		/* =================================================== */
-		/* PRICING */
-		/* =================================================== */
-
-			#pricing {
-				background: #119ae2;
-			}
-
-			#pricing .heading-underline {
-				background: #fff;
-			}
-
-			#pricing .feature-block {
-				background: #108dd1;
-				border: 1px solid #41b3f1;
-			}
-
-			#pricing .feature-title,
-			#pricing .feature-description {
-				color: #fff;
-				text-align: center;
-			}
-
-			#pricing .seperator {
-				border: 0.1px dashed #41b3f1;
-			}
-
-			#pricing .document-link {
-				text-align: center;
-				font-size: 13px;
-				border: 1px solid #71c6f4;
-				padding: 15px;
-				background: #2aaaef;
-				width: 100%;
-				margin-top: 40px;
-				font-family: 'Open Sans Condensed', sans-serif;
-			}
-
-			#pricing .document-link a {
-				color: #fff;
-				text-decoration: none;
-			}
-
 
 		/* =================================================== */
 		/* CONTACT */
