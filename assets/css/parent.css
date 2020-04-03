@@ -216,10 +216,8 @@
 			}
 
 			.menu-list li {
-display: inline-block;
-    margin-right: 10px;
-    padding: 0 12px 0 0;
-    border-right: 1px solid rgba(255, 255, 255, 0.25);
+				display: inline-block;
+				margin-right: 15px;
 			}
 			
 			.menu-list li:last-child:after {
@@ -229,6 +227,7 @@ display: inline-block;
 			.menu-list li:last-child {
 				border-right: 0;
 				padding-right: 0;
+				margin-right: 0;
 			}
 
 			.menu-list li a {
