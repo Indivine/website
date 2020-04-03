@@ -200,7 +200,8 @@
 		/* =================================================== */
 
 .section-description {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
+    font-size: 28px;
 }
 
 			#menu {
