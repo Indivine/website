@@ -78,6 +78,11 @@
 			}
 		}
 		
+		.feature-block-wrapper {
+		    margin: auto;
+		    text-align: center;
+		}
+		
 		@media (min-width: 1200px) {}
 			.feature-block-wrapper {
 			    width: 768px;
