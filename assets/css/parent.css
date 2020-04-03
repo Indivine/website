@@ -457,11 +457,10 @@
 			}
 
 			#footer .fine-print {
-				float: right;
-				margin-top: 2px;
-				color: #aaa;
-				font-size: 11px;
-				font-family: 'Open Sans Condensed', sans-serif;
+			    text-align: center;
+			    margin-top: 2px;
+			    color: #aaa;
+			    font-size: 14px;
 			}
 /* =================================================== */
 /* RESPONSIVE */
