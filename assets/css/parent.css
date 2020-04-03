@@ -41,6 +41,7 @@
 
 		p {
 			margin: 15px 0;
+			line-height: 1.4;
 		}
 
 		a {
@@ -498,3 +499,15 @@
 			}
 
 		}
+		
+		
+		.green {
+			color: #8BC34A;
+		}
+		.orange {
+			color: #fff;
+		}
+		.blue {
+			color: #fff;
+		}
+		
