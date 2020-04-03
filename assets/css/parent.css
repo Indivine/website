@@ -93,6 +93,10 @@
 		.section-content {
 			margin-top: 40px;
 		}
+		
+.section-image {
+    max-height: 200px;
+}
 
 		.feature-block {
 			padding: 25px;
