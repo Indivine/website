@@ -180,7 +180,9 @@
 		/* MENU */
 		/* =================================================== */
 
-
+.section-description {
+	margin-bottom: 80px;
+}
 
 			#menu {
 				padding: 15px 0;
