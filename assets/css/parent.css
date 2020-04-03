@@ -5,20 +5,13 @@
 	/* =================================================== */
 	/* BODY DEFAULTS */
 	/* =================================================== */
-	
-		@media (min-width: 1200px) {}
-			.container {
-			    width: 1024px;
-			}
-		}
 
 		body {
 			font-family: 'Roboto', sans-serif;
-			font-size: 16px;
+			font-size: 17px;
 			font-weight: 300;
 			line-height: 1.5em;
 			color: #444;
-
 			background: #f7f7f7;
 		}
 
