@@ -59,8 +59,9 @@
 			margin: 0;
 		}
 		
-		.w-50 {
+		.section-wrapper {
 			max-width: 50% !important;
+			margin-bottom: 40px;
 		}
 
 	/* =================================================== */
