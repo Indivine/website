@@ -63,6 +63,17 @@
 			max-width: 80% !important;
 			margin-bottom: 80px;
 		}
+		
+		.section-wrapper.left {
+			margin-left: 0;
+			margin-right: auto;
+		}
+
+		.section-wrapper.right {
+			margin-left: auto;
+			margin-right: 0;
+		}
+
 
 	/* =================================================== */
 	/* SECTION DEFAULTS */
