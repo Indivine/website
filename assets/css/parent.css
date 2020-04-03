@@ -345,6 +345,10 @@
 				color: #fff;
 				text-align: center;
 			}
+			
+			#about {
+				backgroud-color: #fff;
+			}
 
 			#about .section-triangle-down {
 				border-color: #fff transparent transparent transparent;
