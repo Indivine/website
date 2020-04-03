@@ -83,6 +83,11 @@
 		    margin: auto;
 		    text-align: center;
 		}
+		
+		.feature-block i {
+		    display: block;
+		    float: none;
+		}
 
 	/* =================================================== */
 	/* SECTION DEFAULTS */
